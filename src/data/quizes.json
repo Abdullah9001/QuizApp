@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "img": "https://marvel-b1-cdn.bc0a.com/f00000000026007/resilienteducator.com/wp-content/uploads/2012/11/AdobeStock_60467600_cup.jpg",
+    "img": "/src/assets/img/math.jpg",
     "name": "Math",
     "questions": [
       {
@@ -98,7 +98,7 @@
   },
   {
     "id": 2,
-    "img": "https://blogs.biomedcentral.com/on-biology/wp-content/uploads/sites/5/2017/12/DNA.png",
+    "img": "/src/assets/img/Biology.jpg",
     "name": "Biology",
     "questions": [
       {
@@ -195,7 +195,7 @@
   },
   {
     "id": 3,
-    "img": "http://jobs.newscientist.com/getasset/c40a5488-11be-43b0-843f-a2e6ef9f0612/",
+    "img": "/src/assets/img/Chemistry.jpg",
     "name": "Chemistry",
     "questions": [
       {
@@ -286,6 +286,1347 @@
             "text": "C3H8",
             "isCorrect": false
           }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "img": "/src/assets/img/Economics.jpg",
+    "name": "Economics",
+    "questions": [
+      {
+        "id": 1,
+        "text": "What term describes the total value of all goods and services produced within a country's borders in a specific time period?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Gross Domestic Product (GDP)",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Inflation",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Fiscal Policy",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Trade Deficit",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "What economic term refers to the situation where there are limited resources but unlimited wants?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Scarcity",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Surplus",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Monopoly",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Demand",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "What is the term for the cost of the next best alternative when a decision is made to choose one option over another?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Opportunity Cost",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Marginal Cost",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Fixed Cost",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Variable Cost",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "Which economic system is characterized by private ownership of the means of production and market-driven decision-making?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Communism",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Socialism",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Capitalism",
+            "isCorrect": true
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Feudalism",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "img": "/src/assets/img/Psychology.jpg",
+    "name": "Psychology",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Who is known for the theory of psychoanalysis and the concept of the unconscious mind?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "B.F. Skinner",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Sigmund Freud",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Ivan Pavlov",
+            "isCorrect": false
+          },
+          { "id": 4, "label": "D", "text": "Carl Rogers", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "What is the process of adapting one's current understandings (schemas) to incorporate new information?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Accommodation",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Assimilation",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Cognition",
+            "isCorrect": false
+          },
+          { "id": 4, "label": "D", "text": "Conformity", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "The tendency to recall items at the beginning and end of a list more easily than items in the middle is known as:",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Primacy Effect",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Recency Effect",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Serial Position Effect",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Availability Heuristic",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "Which psychologist is associated with the hierarchy of needs, which includes physiological, safety, love/belonging, esteem, and self-actualization?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "B.F. Skinner",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Abraham Maslow",
+            "isCorrect": true
+          },
+          { "id": 3, "label": "C", "text": "Erik Erikson", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "Jean Piaget", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "img": "/src/assets/img/Political.jpg",
+    "name": "Political Science",
+    "questions": [
+      {
+        "id": 1,
+        "text": "What is the term for a government ruled by a single individual with absolute power?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Democracy",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Oligarchy",
+            "isCorrect": false
+          },
+          { "id": 3, "label": "C", "text": "Monarchy", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "Autocracy", "isCorrect": true }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Which document outlines the fundamental rights and freedoms of citizens in the United States?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Magna Carta",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Bill of Rights",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Declaration of Independence",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Emancipation Proclamation",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "What term describes a form of government where power is held by the people, either directly or through elected representatives?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Monarchy",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Oligarchy",
+            "isCorrect": false
+          },
+          { "id": 3, "label": "C", "text": "Democracy", "isCorrect": true },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Totalitarianism",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "What is the term for a sudden and often violent overthrow of a government, typically by a group of military officers or a political faction?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Coup d'État",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Revolution",
+            "isCorrect": false
+          },
+          { "id": 3, "label": "C", "text": "Secession", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "Anarchy", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "img": "/src/assets/img/Sociology.jpg",
+    "name": "Sociology",
+    "questions": [
+      {
+        "id": 1,
+        "text": "The process through which individuals learn and internalize the values, beliefs, and norms of a society is called:",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Acculturation",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Assimilation",
+            "isCorrect": false
+          },
+          { "id": 3, "label": "C", "text": "Socialization", "isCorrect": true },
+          { "id": 4, "label": "D", "text": "Segregation", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "What is the term for the unequal distribution of resources and opportunities among different groups in a society?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Meritocracy",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Social Stratification",
+            "isCorrect": true
+          },
+          { "id": 3, "label": "C", "text": "Pluralism", "isCorrect": false },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Egalitarianism",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "The theoretical perspective that emphasizes the influence of social structures and institutions on human behavior is known as:",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Symbolic Interactionism",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Functionalism",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Conflict Theory",
+            "isCorrect": true
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Rational Choice Theory",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "The study of small groups and the patterns of social interaction within them is called:",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Macro sociology",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Micro sociology",
+            "isCorrect": true
+          },
+          { "id": 3, "label": "C", "text": "Ethnography", "isCorrect": false },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Comparative sociology",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "img": "/src/assets/img/Health.jpg",
+    "name": "Health and Nutrition",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Which nutrient is the body's primary source of energy?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Protein",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Carbohydrates",
+            "isCorrect": true
+          },
+          { "id": 3, "label": "C", "text": "Vitamins", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "Fiber", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "What is the recommended daily intake of water for adults?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "1 liter",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "2 liters",
+            "isCorrect": false
+          },
+          { "id": 3, "label": "C", "text": "3 liters", "isCorrect": false },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "It varies based on factors like age and activity level",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "Which vitamin is often referred to as the \"sunshine vitamin\" and is important for bone health?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Vitamin A",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Vitamin B12",
+            "isCorrect": false
+          },
+          { "id": 3, "label": "C", "text": "Vitamin D", "isCorrect": true },
+          { "id": 4, "label": "D", "text": "Vitamin C", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "Which type of fat is considered the \"good\" fat and is found in foods like avocados, nuts, and olive oil?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Saturated Fat",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Trans Fat",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Monounsaturated Fat",
+            "isCorrect": true
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Polyunsaturated Fat",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "img": "/src/assets/img/Language.jpg",
+    "name": "Language and Linguistics",
+    "questions": [
+      {
+        "id": 1,
+        "text": "What is the study of the sounds of human speech called?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Syntax",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Semantics",
+            "isCorrect": false
+          },
+          { "id": 3, "label": "C", "text": "Phonetics", "isCorrect": true },
+          { "id": 4, "label": "D", "text": "Morphology", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Which branch of linguistics focuses on the meaning of words and how they combine to form sentences?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Syntax",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Semantics",
+            "isCorrect": true
+          },
+          { "id": 3, "label": "C", "text": "Pragmatics", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "Phonetics", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "What term describes a word that is similar in sound to the word it refers to, like \"buzz\" for the sound of a bee?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Onomatopoeia",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Anaphora",
+            "isCorrect": false
+          },
+          { "id": 3, "label": "C", "text": "Synecdoche", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "Euphemism", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "The study of the history and evolution of languages is known as:",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Phonetics",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Syntax",
+            "isCorrect": false
+          },
+          { "id": 3, "label": "C", "text": "Phonology", "isCorrect": false },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Historical Linguistics",
+            "isCorrect": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "img": "/src/assets/img/Astronomy.jpg",
+    "name": "Astronomy",
+    "questions": [
+      {
+        "id": 1,
+        "text": "What is the name of the galaxy that contains our solar system?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Andromeda",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Milky Way",
+            "isCorrect": true
+          },
+          { "id": 3, "label": "C", "text": "Sombrero", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "Triangulum", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "What is the term for a small, icy body that orbits the Sun and develops a glowing coma and tail when it approaches the Sun?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Asteroid",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Meteoroid",
+            "isCorrect": false
+          },
+          { "id": 3, "label": "C", "text": "Comet", "isCorrect": true },
+          { "id": 4, "label": "D", "text": "Meteor", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "What is the phenomenon in which light is bent as it passes through a medium, causing the appearance of stars to shift?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Reflection",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Refraction",
+            "isCorrect": true
+          },
+          { "id": 3, "label": "C", "text": "Diffraction", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "Dispersion", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "What is a celestial event where the moon moves between the Earth and the Sun, blocking out the Sun's light and casting a shadow on Earth?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Solar Eclipse",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Lunar Eclipse",
+            "isCorrect": false
+          },
+          { "id": 3, "label": "C", "text": "Equinox", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "Solstice", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "img": "/src/assets/img/Environmental.jpg",
+    "name": "Environmental Science",
+    "questions": [
+      {
+        "id": 1,
+        "text": "What is the term for the gradual increase in the Earth's average temperature due to human activities?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Global Cooling",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Climate Change",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Greenhouse Effect",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Ozone Depletion",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "What term describes the variety of life forms on Earth, including species diversity, genetic diversity, and ecosystem diversity?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Biodiversity",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Sustainability",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Biodegradation",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Ecosystem Services",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "Which process converts atmospheric nitrogen into a form that plants can use for growth?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Photosynthesis",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Respiration",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Nitrogen Fixation",
+            "isCorrect": true
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Eutrophication",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "What is the term for the gradual wearing away of soil and rock by natural processes?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Erosion",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Deforestation",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Desertification",
+            "isCorrect": false
+          },
+          { "id": 4, "label": "D", "text": "Flooding", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "img": "/src/assets/img/Computer.jpg",
+    "name": "Computer Science",
+    "questions": [
+      {
+        "id": 1,
+        "text": "What does HTML stand for?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Hyperlink and Text Markup Language",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Hypertext Transfer Protocol Language",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "High-Tech Multimedia Language",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "HyperText Markup Language",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Which programming language is often used for artificial intelligence and machine learning?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Java",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Python",
+            "isCorrect": true
+          },
+          { "id": 3, "label": "C", "text": "C++", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "Ruby", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "What is the process of finding and fixing errors in a computer program called?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Debugging",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Compiling",
+            "isCorrect": false
+          },
+          { "id": 3, "label": "C", "text": "Coding", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "Encrypting", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "Which component of a computer is often referred to as the \"brain\" of the computer and performs most of the processing?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Hard Drive",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "RAM",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "CPU (Central Processing Unit)",
+            "isCorrect": true
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "GPU (Graphics Processing Unit)",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "img": "/src/assets/img/Physical.jpg",
+    "name": "Physical Education",
+    "questions": [
+      {
+        "id": 1,
+        "text": "How many players are on a standard soccer team?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "8",
+            "isCorrect": false
+          },
+          { "id": 2, "label": "B", "text": "11", "isCorrect": true },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "9",
+            "isCorrect": false
+          },
+          { "id": 4, "label": "D", "text": "10", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "In basketball, how many points is a three-point shot worth?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "1",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "2",
+            "isCorrect": false
+          },
+          { "id": 3, "label": "C", "text": "3", "isCorrect": true },
+          { "id": 4, "label": "D", "text": "4", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "What is the distance of a standard marathon race in kilometers?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "21.1 km",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "42.2 km",
+            "isCorrect": true
+          },
+          { "id": 3, "label": "C", "text": "26.2 km", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "10 km", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "What is the style of swimming in which the swimmer is on their back, using alternating arm and leg movements?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Breaststroke",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Butterfly",
+            "isCorrect": false
+          },
+          { "id": 3, "label": "C", "text": "Backstroke", "isCorrect": true },
+          { "id": 4, "label": "D", "text": "Freestyle", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "img": "/src/assets/img/Music.jpg",
+    "name": "Music",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Which musical term indicates a gradual decrease in volume?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Crescendo",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Fortissimo",
+            "isCorrect": false
+          },
+          { "id": 3, "label": "C", "text": "Decrescendo", "isCorrect": true },
+          { "id": 4, "label": "D", "text": "Pianissimo", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "What is the term for a musical composition for a solo instrument accompanied by an orchestra?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Symphony",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Concerto",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Sonata",
+            "isCorrect": false
+          },
+          { "id": 4, "label": "D", "text": "Chorale", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "What is the name of the five-line staff where most vocal music is written?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Treble Clef",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Bass Clef",
+            "isCorrect": false
+          },
+          { "id": 3, "label": "C", "text": "Alto Clef", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "Soprano Clef", "isCorrect": true }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "Which instrument is often called the “king of instruments” and is known for its pipes and keyboards?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Violin",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Piano",
+            "isCorrect": false
+          },
+          { "id": 3, "label": "C", "text": "Trumpet", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "Organ", "isCorrect": true }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "img": "/src/assets/img/Art.jpeg",
+    "name": "Art",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Which art movement, known for its use of geometric shapes and bold colors, emerged in the early 20th century?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Impressionism",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Surrealism",
+            "isCorrect": false
+          },
+          { "id": 3, "label": "C", "text": "Cubism", "isCorrect": true },
+          { "id": 4, "label": "D", "text": "Baroque", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Who painted the famous artwork \"Starry Night\"?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Leonardo da Vinci",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Vincent van Gogh",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Pablo Picasso",
+            "isCorrect": false
+          },
+          { "id": 4, "label": "D", "text": "Michelangelo", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "Which art medium involves shaping a three-dimensional form from a material such as clay, stone, or wood?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Painting",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Drawing",
+            "isCorrect": false
+          },
+          { "id": 3, "label": "C", "text": "Sculpture", "isCorrect": true },
+          { "id": 4, "label": "D", "text": "Printmaking", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "What Renaissance artist created the iconic statue \"David\"?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Raphael",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Donatello",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Leonardo da Vinci",
+            "isCorrect": false
+          },
+          { "id": 4, "label": "D", "text": "Michelangelo", "isCorrect": true }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "img": "/src/assets/img/Geography.jpg",
+    "name": "Geography",
+    "questions": [
+      {
+        "id": 1,
+        "text": "What is the world's largest ocean?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Indian Ocean",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Arctic Ocean",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Atlantic Ocean",
+            "isCorrect": false
+          },
+          { "id": 4, "label": "D", "text": "Pacific Ocean", "isCorrect": true }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Which African mountain is known as the \"Roof of Africa\"?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Mount Kilimanjaro",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Mount Everest",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Mount McKinley",
+            "isCorrect": false
+          },
+          { "id": 4, "label": "D", "text": "Mount Fuji", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "Which river is the longest in the world?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Nile River",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Amazon River",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Yangtze River",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Mississippi River",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "Which desert is the largest hot desert in the world?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Sahara Desert",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Gobi Desert",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Atacama Desert",
+            "isCorrect": false
+          },
+          { "id": 4, "label": "D", "text": "Mojave Desert", "isCorrect": false }
         ]
       }
     ]

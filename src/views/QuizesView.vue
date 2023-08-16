@@ -46,15 +46,17 @@ main {
     }
     input {
       outline: none;
-      height: 30px;
+      height: 36px;
       padding: 5px;
+      border: 1px dotted #068da9;
     }
   }
   .options-container {
     display: flex;
-    grid-template-columns: auto auto auto;
     flex-wrap: wrap;
     margin-top: 40px;
+    align-items: center;
+    justify-content: center;
   }
 }
 </style>

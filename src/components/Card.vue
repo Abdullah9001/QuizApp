@@ -26,6 +26,7 @@ const navigateToQuiz = () => {
   border-radius: 2%;
   margin: 10px;
   box-shadow: 1px 1px 10px #1b1b1b;
+  margin: 1.2rem;
   cursor: pointer;
   img {
     width: 100%;
