@@ -33,12 +33,13 @@
   text-align: center;
 
   h2 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     margin-bottom: 1rem;
+    color: #068da9;
   }
 
   p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-bottom: 1.5rem;
   }
 

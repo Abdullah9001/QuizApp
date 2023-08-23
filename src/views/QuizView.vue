@@ -1,6 +1,7 @@
 <script setup>
 import Question from "../components/Question.vue";
 import QuizHeader from "../components/Quizheader.vue";
+import Footer from "../components/Footer.vue";
 import Result from "../components/Result.vue";
 import { useRoute } from "vue-router";
 import { computed, ref, watch } from "vue";
@@ -35,7 +36,7 @@ const onOptionSelected = (isCorrect) => {
 </script>
 
 <template>
-  <div>
+  <div class="container">
     <QuizHeader
       :questionStatus="questionStatus"
       :barPercentage="barPercentage"
@@ -55,4 +56,8 @@ const onOptionSelected = (isCorrect) => {
   </div>
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.container {
+  padding: 80px 2px;
+}
+</style>

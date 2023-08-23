@@ -36,10 +36,14 @@ const emitSelectedOption = (isCorrect) => {
 <style lang="scss" scoped>
 .question-container {
   margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   .question {
     font-size: 30px;
     margin-bottom: 20px;
+    color: #068da9;
   }
 }
 
@@ -49,13 +53,14 @@ const emitSelectedOption = (isCorrect) => {
     margin-bottom: 20px;
     cursor: pointer;
     .option-label {
-      background-color: bisque;
+      background-color: #068da9;
       width: 40px;
       height: 40px;
       font-size: 25px;
       display: flex;
       align-items: center;
       justify-content: center;
+      color: white;
     }
 
     .option-value {

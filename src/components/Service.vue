@@ -1,5 +1,6 @@
 <script setup>
 import { ref } from "vue";
+import { RouterLink } from "vue-router";
 
 const cards = ref([
   {
@@ -49,6 +50,71 @@ const cards = ref([
         </div>
       </div>
     </div>
+
+    <div class="service-more">
+      <div class="items">
+        <img
+          class="mr-right"
+          src="/src/assets/10125226_17973866.jpg"
+          alt="image"
+        />
+        <div class="items-text">
+          <h1>Rich Question Database:</h1>
+          <p>
+            Explore a vast and diverse database of questions that span a wide
+            range of topics. Whether you're interested in literature, science,
+            geography, or pop culture, you'll find a quiz that piques your
+            curiosity. Immerse yourself in an interactive learning experience
+            that goes beyond traditional textbooks. Our quizzes engage multiple
+            senses, making learning more enjoyable and memorable.
+          </p>
+          <RouterLink to="/quizes"
+            >See More <img src="/src/assets/right-arrow.png" alt="arrow"
+          /></RouterLink>
+        </div>
+      </div>
+      <div class="items">
+        <div class="items-text">
+          <h1>Interactive Learning Experience:</h1>
+          <p>
+            Receive instant feedback on your answers. Whether you're right or
+            wrong, our quizzes provide explanations that help you understand the
+            concepts better, fostering continuous learning. Immerse yourself in
+            an interactive learning experience that goes beyond traditional
+            textbooks. Our quizzes engage multiple senses, making learning more
+            enjoyable and memorable.
+          </p>
+          <RouterLink to="/quizes"
+            >See More <img src="/src/assets/right-arrow.png" alt="arrow"
+          /></RouterLink>
+        </div>
+        <img
+          class="mr-left"
+          src="/src/assets/10125237_17973869.jpg"
+          alt="image"
+        />
+      </div>
+      <div class="items">
+        <img
+          class="mr-right"
+          src="/src/assets/2453852_328847-P9ZNJ6-117.jpg"
+          alt="image"
+        />
+        <div class="items-text">
+          <h1>Expand Your Knowledge Horizons:</h1>
+          <p>
+            From ancient civilizations to cutting-edge technologies, our quizzes
+            cover a wide spectrum of knowledge, enabling you to broaden your
+            horizons and discover new passions. Immerse yourself in quizzes that
+            include engaging visuals, images, videos, and diagrams. Visual aids
+            enhance your understanding and make learning more captivating.
+          </p>
+          <RouterLink to="/quizes"
+            >See More <img src="/src/assets/right-arrow.png" alt="arrow"
+          /></RouterLink>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -69,6 +135,7 @@ const cards = ref([
   }
 
   .service-card {
+    margin: 5rem auto;
     .cards {
       align-content: center;
       justify-content: center;
@@ -96,6 +163,56 @@ const cards = ref([
           }
           p {
             font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+  .service-more {
+    margin: 3rem auto;
+    .items {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      margin: 5rem auto;
+
+      img {
+        width: 400px;
+        height: 400px;
+        object-fit: cover;
+      }
+      .mr-left {
+        margin-left: 3rem;
+      }
+      .mr-right {
+        margin-right: 3rem;
+      }
+
+      .items-text {
+        h1,
+        p,
+        a {
+          margin: 2rem auto;
+        }
+
+        h1 {
+          font-size: 2.5rem;
+          font-weight: bold;
+          color: #068da9;
+        }
+
+        a {
+          display: flex;
+          text-align: center;
+          align-items: center;
+          font-size: 20px;
+          text-decoration: none;
+          color: black;
+          img {
+            width: 40px;
+            height: 40px;
+            margin: 0 10px;
           }
         }
       }

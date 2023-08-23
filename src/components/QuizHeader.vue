@@ -25,12 +25,12 @@ const { questionStatus, barPercentage } = defineProps([
   .bar {
     width: 300px;
     height: 40px;
-    border: 2px solid bisque;
+    border: 2px solid #068da9;
 
     .completion {
       height: 100%;
       width: 0%;
-      background-color: bisque;
+      background-color: #068da9;
     }
   }
 }

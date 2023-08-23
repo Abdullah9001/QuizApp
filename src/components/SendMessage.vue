@@ -17,40 +17,26 @@ const submitForm = () => {
   showAlert.value = true;
   setTimeout(() => {
     showAlert.value = false;
-    router.push("/");
+    location.reload();
   }, 3000);
 };
 </script>
 
 <template>
-  <div class="contact-page">
-    <header class="contact-header">
-      <h1 class="contact-title">Contact Us</h1>
+  <div class="experience-page">
+    <header class="experience-header">
+      <h1 class="experience-title">Send us a message</h1>
     </header>
-    <section class="contact-content">
-      <p class="contact-description">
-        Have questions, suggestions, or feedback? We'd love to hear from you!
-        Use the form below to get in touch with us.
-      </p>
-      <form class="contact-form" @submit.prevent="submitForm">
-        <div class="form-group">
-          <label for="name">Name</label>
-          <input
-            type="text"
-            id="name"
-            v-model="formData.name"
-            placeholder="Name...."
-            required
-          />
-        </div>
+    <section class="experience-content">
+      <form class="experience-form" @submit.prevent="submitForm">
         <div class="form-group">
           <label for="email">Email</label>
           <input
             type="email"
             id="email"
             v-model="formData.email"
-            placeholder="Email....."
             required
+            placeholder="Email....."
           />
         </div>
         <div class="form-group">
@@ -58,8 +44,8 @@ const submitForm = () => {
           <textarea
             id="message"
             v-model="formData.message"
-            placeholder="Message......"
             required
+            placeholder="Message....."
           ></textarea>
         </div>
         <button type="submit" class="submit-button">Send Message</button>
@@ -70,30 +56,30 @@ const submitForm = () => {
 </template>
 
 <style lang="scss" scoped>
-.contact-page {
-  max-width: 800px;
+.experience-page {
+  max-width: 900px;
   margin: 0 auto;
   padding: 2rem;
+  margin: 2rem auto;
 }
 
-.contact-title {
+.experience-header {
+  text-align: center;
+  align-items: center;
+}
+
+.experience-title {
   font-size: 3rem;
   margin-bottom: 1rem;
   font-weight: bold;
   color: #068da9;
 }
 
-.contact-content {
+.experience-content {
   margin-top: 2rem;
 }
 
-.contact-description {
-  font-size: 1.1rem;
-  margin-bottom: 1.5rem;
-  color: #333;
-}
-
-.contact-form {
+.experience-form {
   display: grid;
   gap: 1rem;
 }
@@ -108,10 +94,15 @@ label {
   margin-bottom: 0.5rem;
 }
 
-input,
-textarea {
+input {
   padding: 0.5rem;
-  border: 1px solid #ccc;
+  border: 1px solid #068da9;
+  border-radius: 4px;
+}
+textarea {
+  height: 8rem;
+  padding: 0.5rem;
+  border: 1px solid #068da9;
   border-radius: 4px;
 }
 
