@@ -46,4 +46,17 @@ p {
 .footer-nav a:last-child {
   margin-right: 0;
 }
+
+@media (max-width: 640px) {
+  .app-footer {
+    padding: 20px;
+  }
+  .footer-nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+    border: 1px solid #fff;
+    padding: 2px;
+  }
+}
 </style>

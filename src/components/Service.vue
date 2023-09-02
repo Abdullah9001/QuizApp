@@ -94,7 +94,7 @@ const cards = ref([
           alt="image"
         />
       </div>
-      <div class="items">
+      <div class="items flex-reverse">
         <img
           class="mr-right"
           src="/src/assets/2453852_328847-P9ZNJ6-117.jpg"
@@ -215,6 +215,39 @@ const cards = ref([
             margin: 0 10px;
           }
         }
+      }
+    }
+  }
+  @media (max-width: 1000px) {
+    .service-card .cards .card {
+      margin: 1rem 5px;
+    }
+
+    .service-more {
+      .items {
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem;
+        margin: 0rem auto;
+
+        img {
+          width: 100%;
+        }
+        .mr-left {
+          margin-left: 0rem;
+        }
+        .mr-right {
+          margin-right: 0rem;
+        }
+
+        .items-text {
+          h1 {
+            font-size: 2rem;
+          }
+        }
+      }
+      .flex-reverse {
+        flex-direction: column-reverse;
       }
     }
   }

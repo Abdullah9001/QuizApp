@@ -115,4 +115,10 @@ textarea {
   cursor: pointer;
   font-size: 18px;
 }
+
+@media (max-width: 640px) {
+  .experience-title {
+    font-size: 2.5rem;
+  }
+}
 </style>

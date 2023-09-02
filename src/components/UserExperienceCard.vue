@@ -50,5 +50,36 @@ const { user } = defineProps(["user"]);
       color: #555;
     }
   }
+  @media (max-width: 1000px) {
+    padding: 10px;
+    margin: 3rem;
+  }
+  @media (max-width: 640px) {
+    padding: 10px;
+    margin: 2rem;
+    gap: 10px;
+    flex-direction: column;
+    text-align: center;
+
+    .user-image {
+      img {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 10px;
+      }
+    }
+
+    .user-info {
+      text-align: center;
+
+      .user-name {
+        font-size: 1.3rem;
+      }
+
+      .user-description {
+        font-size: 1rem;
+      }
+    }
+  }
 }
 </style>

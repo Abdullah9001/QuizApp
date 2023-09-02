@@ -30,7 +30,6 @@ import { RouterLink } from "vue-router";
 <style lang="scss" scoped>
 .hero {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   height: 100%;
@@ -41,7 +40,7 @@ import { RouterLink } from "vue-router";
     width: 700px;
 
     h2,
-    h2,
+    h1,
     p {
       margin: 0.5rem 0;
     }
@@ -81,6 +80,68 @@ import { RouterLink } from "vue-router";
     width: 300px;
     img {
       height: 100%;
+    }
+  }
+
+  // Media Query for Mobile
+  @media (max-width: 1024px) {
+    padding: 3rem;
+  }
+  @media (max-width: 1024px) {
+    padding: 3rem;
+    .text {
+      width: 100%;
+
+      h1 {
+        font-size: 2.2rem;
+      }
+
+      p {
+        font-size: 14px;
+        margin-bottom: 20px;
+      }
+
+      a {
+        padding: 10px 40px;
+      }
+    }
+
+    .image {
+      height: 500px;
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    text-align: center;
+    padding: 3rem;
+  }
+  @media (max-width: 640px) {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+
+    .text {
+      width: 100%;
+
+      h1 {
+        font-size: 2.2rem;
+      }
+
+      p {
+        font-size: 14px;
+        margin-bottom: 20px;
+      }
+
+      a {
+        padding: 10px 40px;
+      }
+    }
+
+    .image {
+      height: 500px;
+      width: 100%;
     }
   }
 }
