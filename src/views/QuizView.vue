@@ -1,6 +1,6 @@
 <script setup>
 import Question from "../components/Question.vue";
-import QuizHeader from "src/components/QuizHeader.vue";
+import QuizHeader from "../components/QuizHeader.vue";
 import Result from "../components/Result.vue";
 import { useRoute } from "vue-router";
 import { computed, ref, watch } from "vue";
