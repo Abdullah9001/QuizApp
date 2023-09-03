@@ -5,25 +5,25 @@ import { RouterLink } from "vue-router";
 const cards = ref([
   {
     id: 1,
-    img: "/src/assets/home/book.png",
+    img: "/dist/assets/home/book.png",
     title: "Educational Resources:",
     text: "Access a rich collection of educational resources that accompany each quiz.",
   },
   {
     id: 2,
-    img: "/src//assets/home/calculating.png",
+    img: "/dist/assets/home/calculating.png",
     title: "Real-Time Progress Tracking:",
     text: "Keep track of your progress as you conquer quizzes.",
   },
   {
     id: 3,
-    img: "/src/assets/home/ideas.png",
+    img: "/dist/assets/home/ideas.png",
     title: "Personalized Learning:",
     text: "Tailor your learning experience by selecting quizzes based on your interests.",
   },
   {
     id: 4,
-    img: "/src/assets/home/quiz.png",
+    img: "/dist/assets/home/quiz.png",
     title: "Community Engagement:",
     text: "Join a vibrant community of learners and quiz enthusiasts.",
   },
@@ -69,7 +69,7 @@ const cards = ref([
             senses, making learning more enjoyable and memorable.
           </p>
           <RouterLink to="/quizes"
-            >See More <img src="/src/assets/right-arrow.png" alt="arrow"
+            >See More <img src="../assets/right-arrow.png" alt="arrow"
           /></RouterLink>
         </div>
       </div>
@@ -85,19 +85,19 @@ const cards = ref([
             enjoyable and memorable.
           </p>
           <RouterLink to="/quizes"
-            >See More <img src="/src/assets/right-arrow.png" alt="arrow"
+            >See More <img src="../assets/right-arrow.png" alt="arrow"
           /></RouterLink>
         </div>
         <img
           class="mr-left"
-          src="/src/assets/10125237_17973869.jpg"
+          src="../assets/10125237_17973869.jpg"
           alt="image"
         />
       </div>
       <div class="items flex-reverse">
         <img
           class="mr-right"
-          src="/src/assets/2453852_328847-P9ZNJ6-117.jpg"
+          src="../assets/2453852_328847-P9ZNJ6-117.jpg"
           alt="image"
         />
         <div class="items-text">
@@ -110,7 +110,7 @@ const cards = ref([
             enhance your understanding and make learning more captivating.
           </p>
           <RouterLink to="/quizes"
-            >See More <img src="/src/assets/right-arrow.png" alt="arrow"
+            >See More <img src="../assets/right-arrow.png" alt="arrow"
           /></RouterLink>
         </div>
       </div>

@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "img": "/src/assets/img/math.jpg",
+    "img": "/dist/assets/img/math.jpg",
     "name": "Math",
     "questions": [
       {
@@ -98,7 +98,7 @@
   },
   {
     "id": 2,
-    "img": "/src/assets/img/Biology.jpg",
+    "img": "/dist/assets/img/Biology.jpg",
     "name": "Biology",
     "questions": [
       {
@@ -195,7 +195,7 @@
   },
   {
     "id": 3,
-    "img": "/src/assets/img/Chemistry.jpg",
+    "img": "/dist/assets/img/Chemistry.jpg",
     "name": "Chemistry",
     "questions": [
       {
@@ -292,7 +292,7 @@
   },
   {
     "id": 4,
-    "img": "/src/assets/img/Economics.jpg",
+    "img": "/dist/assets/img/Economics.jpg",
     "name": "Economics",
     "questions": [
       {
@@ -419,7 +419,7 @@
   },
   {
     "id": 5,
-    "img": "/src/assets/img/Psychology.jpg",
+    "img": "/dist/assets/img/Psychology.jpg",
     "name": "Psychology",
     "questions": [
       {
@@ -526,7 +526,7 @@
   },
   {
     "id": 6,
-    "img": "/src/assets/img/Political.jpg",
+    "img": "/dist/assets/img/Political.jpg",
     "name": "Political Science",
     "questions": [
       {
@@ -628,7 +628,7 @@
   },
   {
     "id": 7,
-    "img": "/src/assets/img/Sociology.jpg",
+    "img": "/dist/assets/img/Sociology.jpg",
     "name": "Sociology",
     "questions": [
       {
@@ -735,7 +735,7 @@
   },
   {
     "id": 8,
-    "img": "/src/assets/img/Health.jpg",
+    "img": "/dist/assets/img/Health.jpg",
     "name": "Health and Nutrition",
     "questions": [
       {
@@ -837,7 +837,7 @@
   },
   {
     "id": 9,
-    "img": "/src/assets/img/Language.jpg",
+    "img": "/dist/assets/img/Language.jpg",
     "name": "Language and Linguistics",
     "questions": [
       {
@@ -929,7 +929,7 @@
   },
   {
     "id": 10,
-    "img": "/src/assets/img/Astronomy.jpg",
+    "img": "/dist/assets/img/Astronomy.jpg",
     "name": "Astronomy",
     "questions": [
       {
@@ -1016,7 +1016,7 @@
   },
   {
     "id": 11,
-    "img": "/src/assets/img/Environmental.jpg",
+    "img": "/dist/assets/img/Environmental.jpg",
     "name": "Environmental Science",
     "questions": [
       {
@@ -1138,7 +1138,7 @@
   },
   {
     "id": 12,
-    "img": "/src/assets/img/Computer.jpg",
+    "img": "/dist/assets/img/Computer.jpg",
     "name": "Computer Science",
     "questions": [
       {
@@ -1245,7 +1245,7 @@
   },
   {
     "id": 13,
-    "img": "/src/assets/img/Physical.jpg",
+    "img": "/dist/assets/img/Physical.jpg",
     "name": "Physical Education",
     "questions": [
       {
@@ -1332,7 +1332,7 @@
   },
   {
     "id": 14,
-    "img": "/src/assets/img/Music.jpg",
+    "img": "/dist/assets/img/Music.jpg",
     "name": "Music",
     "questions": [
       {
@@ -1424,7 +1424,7 @@
   },
   {
     "id": 15,
-    "img": "/src/assets/img/Art.jpeg",
+    "img": "/dist/assets/img/Art.jpeg",
     "name": "Art",
     "questions": [
       {
@@ -1521,7 +1521,7 @@
   },
   {
     "id": 16,
-    "img": "/src/assets/img/Geography.jpg",
+    "img": "/dist/assets/img/Geography.jpg",
     "name": "Geography",
     "questions": [
       {

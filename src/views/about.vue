@@ -35,13 +35,13 @@ const teamMembers = ref([
     id: 1,
     name: "John Doe",
     role: "Founder & CEO",
-    avatar: "/src/assets/man/bussiness-man.png",
+    avatar: "/dist/assets/man/bussiness-man.png",
   },
   {
     id: 2,
     name: "Jane Smith",
     role: "Lead Developer",
-    avatar: "/src/assets/man/young-man.png",
+    avatar: "/dist/assets/man/young-man.png",
   },
   // Add more team members
 ]);

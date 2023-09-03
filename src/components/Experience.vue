@@ -5,21 +5,21 @@ const users = [
   {
     id: 1,
     name: "Alice",
-    image: "/src/assets/man/beard.png",
+    image: "/dist/assets/man/beard.png",
     experience:
       "I've been learning so much through the quizzes on this platform. It's an engaging and enjoyable way to expand my knowledge.",
   },
   {
     id: 2,
     name: "Bob",
-    image: "/src/assets/man/bussiness-man.png",
+    image: "/dist/assets/man/bussiness-man.png",
     experience:
       "The quizzes have helped me boost my confidence in subjects that I used to struggle with. The explanations are really helpful!",
   },
   {
     id: 3,
     name: "Eve",
-    image: "/src/assets/man/young-man.png",
+    image: "/dist/assets/man/young-man.png",
     experience:
       "Being part of the community and competing on leaderboards has added a fun and social aspect to my learning journey.",
   },
