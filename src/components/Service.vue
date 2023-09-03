@@ -5,25 +5,25 @@ import { RouterLink } from "vue-router";
 const cards = ref([
   {
     id: 1,
-    img: "/dist/assets/home/book.png",
+    img: "../assets/home/book.png",
     title: "Educational Resources:",
     text: "Access a rich collection of educational resources that accompany each quiz.",
   },
   {
     id: 2,
-    img: "/dist/assets/home/calculating.png",
+    img: "../assets/home/calculating.png",
     title: "Real-Time Progress Tracking:",
     text: "Keep track of your progress as you conquer quizzes.",
   },
   {
     id: 3,
-    img: "/dist/assets/home/ideas.png",
+    img: "../assets/home/ideas.png",
     title: "Personalized Learning:",
     text: "Tailor your learning experience by selecting quizzes based on your interests.",
   },
   {
     id: 4,
-    img: "/dist/assets/home/quiz.png",
+    img: "../assets/home/quiz.png",
     title: "Community Engagement:",
     text: "Join a vibrant community of learners and quiz enthusiasts.",
   },
