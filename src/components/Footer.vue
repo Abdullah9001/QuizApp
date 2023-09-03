@@ -57,7 +57,6 @@ p {
     margin-right: 10px;
     border: 1px solid #fff;
     padding: 2px;
-    margin: 1px;
   }
 }
 </style>
